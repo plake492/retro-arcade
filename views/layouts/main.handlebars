@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Retro Acade</title>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Candal);
+        @import url(https://fonts.googleapis.com/css?family=Monoton);
+
+        @font-face {
+            font-family: "audiowide";
+            src: url("assets/fonts/audiowide.ttf") format('truetype');
+            src: url("assets/fonts/audiowide.woff") format('woff');
+            src: url("assets/fonts/audiowide.woff2");
+            src: url("assets/fonts/audiowide-regular-webfont.svg");
+        }
+        body {
+            background-image: url("https://art.ngfiles.com/images/370000/370313_audiolion_neon-grid.jpg?f1438200079");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            color:#2414FF;
+            text-align: center;
+            background-color: rgb(39, 255, 20);
+            border: 5px double;
+            border-radius:5px;
+            font-family: 'Candal', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            -webkit-text-stroke: 0.1px #2414FF;
+            color: #FF00FF;
+            text-shadow: -5px 5px 0px #2414FF;
+        }
+        footer {
+            color:#2414FF;
+            text-align: center;
+            background-color: rgb(39, 255, 20);
+            border: 5px double;
+            border-radius:5px;
+            font-family: 'Candal', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            -webkit-text-stroke: 0.1px #2414FF;
+            color: #FF00FF;
+            text-shadow: -5px 5px 0px #2414FF;
+        }
+        img {
+            width:250px;
+            height:250px;
+        }
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+            justify-content: center; 
+
+        }
+        .column {
+            -ms-flex: 28%; /* IE10 */
+            flex: 28%;
+            max-width: 28%;
+            padding: 0 4px;
+        }
+        .card {
+            background-color: #FF00FF;
+            margin:20px;
+            text-align: center;
+            padding: 20px;
+            font-family: audiowide, Helvetica, sans-serif ;
+            width: 33%
+        }
+        .textbox{
+            color:#14FF31;
+            background: #2414FF;
+            height: 300px;
+            overflow: auto;    
+            line-height: 2;
+            padding: 5px 20px 20px 20px;
+            margin: 5px 40px 5px 40px;
+            border-style: double;
+        }
+
+
+
+
+
+      @media screen and (max-width: 950px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      } 
+      
+      @media screen and (max-width: 767px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;   
+        }
+      }
+
+   
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <h1>ARCADE GAMES</h1>
+        </div>
+
+
+    </header>
+
+    {{{body}}}
+
+    <footer> 
+        <div>
+            <p>Copywrite &copy</p> 
+        </div>
+    </footer>
+    
+</body>
+</html>
